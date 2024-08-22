@@ -1,0 +1,18 @@
+﻿@model Egitmen
+
+<form asp-controller="Egitmen" asp-action="EgitmenEkle" method="post">
+
+    <div>
+        <input type="text" asp-for="Isim" placeholder="Isim giriniz" />
+    </div>
+    <br /> 
+    <div>
+        <input type="text" asp-for="SoyIsim" placeholder="Soyisim giriniz" />
+    </div>
+
+    <button>
+
+        Ekle
+    </button>
+
+</form>
